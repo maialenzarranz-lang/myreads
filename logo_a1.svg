@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="44" fill="#fdf6f0"/>
+
+  <!-- Left page -->
+  <path d="M100 140 Q74 131 50 135 L50 48 Q74 42 100 54Z" fill="#f5c4c0"/>
+  <!-- Right page -->
+  <path d="M100 140 Q126 131 150 135 L150 48 Q126 42 100 54Z" fill="#d9cfef"/>
+  <!-- Spine -->
+  <line x1="100" y1="54" x2="100" y2="140" stroke="#e8908a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Heart -->
+  <path d="M100 76 C100 69 107 64 113 69 C119 64 126 69 126 76 C126 83 113 93 113 93 C113 93 100 83 100 76Z" fill="#e8908a"/>
+  <!-- Left page lines -->
+  <line x1="58" y1="84" x2="90" y2="81" stroke="#e8908a" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+  <line x1="58" y1="95" x2="88" y2="92" stroke="#e8908a" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <line x1="58" y1="106" x2="86" y2="103" stroke="#e8908a" stroke-width="2" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- MyReads name -->
+  <text x="100" y="164" font-family="Georgia, serif" font-size="18" fill="#3a3530" text-anchor="middle" letter-spacing="-0.5">My<tspan fill="#e8908a">Reads</tspan></text>
+  <line x1="54" y1="172" x2="146" y2="172" stroke="#f5c4c0" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
